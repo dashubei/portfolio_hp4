@@ -12,6 +12,7 @@ header {
 }
 
 header img {
+  padding-top: 15px;
   width: 190px;
   padding-left: 20px;
 }
@@ -21,6 +22,7 @@ header .nav-list {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+  padding-top: 25px;
 }
 
 header .nav-item a {
@@ -29,6 +31,9 @@ header .nav-item a {
   font-weight: 400;
   font-size: 22px;
   margin: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .header-nav {
@@ -50,6 +55,10 @@ header .header-nav {
   top: 30%;
   font-weight: 400;
   font-size: 60px;
+}
+
+.course-list {
+  padding-top: 20px;
 }
 
 .course-list h2 {
@@ -105,6 +114,7 @@ header .header-nav {
 }
 
 .teacher-list {
+  padding-top: 50px;
   padding-right: 120px;
   padding-left: 120px;
   text-align: center;
@@ -137,6 +147,7 @@ header .header-nav {
 .teacher-list .teacher-item .teacher-item-text p {
   font-size: 18px;
   font-weight: 400;
+  padding-top: 20px;
 }
 
 .document-claim {
@@ -154,6 +165,10 @@ header .header-nav {
   font-weight: 400;
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+.document-claim p {
+  margin-bottom: 30px;
 }
 
 .document-claim button {
